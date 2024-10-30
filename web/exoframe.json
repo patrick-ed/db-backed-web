@@ -1,0 +1,13 @@
+{
+    "name": "patrickdumdum-message-web",
+    "domain": "patrickdumdum-messages.xf.mkrs.link",
+    "port": 5000,
+
+    "env": {
+      
+      "APP_ENV": "PRODUCTION",
+      "POSTGRES_HOSTNAME": "patrickdumdum-message-database",
+      "POSTGRES_PASSWORD": "@patrickdumdum-postgres-password"
+    }
+  }
+  

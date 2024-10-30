@@ -1,0 +1,16 @@
+
+{  
+  "name": "patrickdumdum-message-database",
+  "domain": false,
+  "hostname": "patrickdumdum-message-database",
+  "image": "postgres:12",
+  
+  "env": {
+
+    "POSTGRES_PASSWORD": "@patrickdumdum-postgres-password"
+
+  },
+
+  "volumes": ["patrickdumdum_message_database_volume:/var/lib/postgresql/data"]
+
+}
